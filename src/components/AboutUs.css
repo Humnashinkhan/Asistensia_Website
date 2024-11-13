@@ -1,0 +1,17 @@
+.about-img-wrapper {
+    position: relative;
+  }
+
+/* ::before pseudo-element */
+.about-img-wrapper::before {
+    content: '';
+    position: absolute;
+    border-top: 30px solid #ebf1fa;
+    border-bottom: 30px solid #ebf1fa;
+    border-left: 30px solid #ebf1fa;
+    top: 65px;
+    left: 160px;
+    bottom: 65px;
+    width: 384px;
+}
+

@@ -5,7 +5,7 @@ const IntroSection = () => {
   return (
     <div>
         <Header/>
-    <div>
+    <div className="w-full">
      <img 
       className='w-full h-[700px]'
       alt="bg-img"
@@ -17,7 +17,8 @@ const IntroSection = () => {
    </div>
      <button 
      className="absolute top-[67%] left-40 md:top-[56%] md:left-44 text-white font-semibold bg-[#1bb1dc] hover:bg-[#1993bb] px-8 py-2 rounded-md">
-        GET STARTED
+       <a href="#footer"> GET STARTED
+       </a>
     </button>
 
    <div className="absolute top-[16%] right-8 md:top-1/4 md:right-16 md:mr-40">

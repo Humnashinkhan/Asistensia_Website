@@ -1,0 +1,11 @@
+.about-img::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  width: 320px;
+  height: 92%;
+  background-color: #ebf1fa;
+  transition: 0.5s;
+  z-index: -2;
+  border-radius: 0.375rem; /* Optional: Tailwind's 'rounded' equivalent */
+}
