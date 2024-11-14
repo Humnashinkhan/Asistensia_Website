@@ -15,3 +15,14 @@
     width: 384px;
 }
 
+@media (max-width: 768px) {
+  .about-img-wrapper::before {
+    border-top: 15px solid #ebf1fa;
+    border-bottom: 15px solid #ebf1fa;
+    border-left: 15px solid #ebf1fa;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+   
+  }
+}
