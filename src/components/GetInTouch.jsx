@@ -2,7 +2,10 @@ import React from 'react'
 
 const GetInTouch = () => {
   return (
-    <div>GetInTouch</div>
+    <div className="bg-[#2d2b46]">
+        GetInTouch
+
+    </div>
   )
 }
 
