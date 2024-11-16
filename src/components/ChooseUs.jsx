@@ -4,7 +4,7 @@ import { faPeopleCarry, faSatelliteDish } from '@fortawesome/free-solid-svg-icon
 import { faSketch } from '@fortawesome/free-brands-svg-icons'
 const ChooseUs = () => {
   return (
-    <div className="w-screen md:w-full h-[175vh] md:h-[150vh]">
+    <div className="w-screen md:w-full h-[180vh] md:h-[150vh]">
      <div>
         <h1 className="text-[36px] text-center text-[#413e66] font-bold pt-12">
             Why choose us?
@@ -21,11 +21,11 @@ const ChooseUs = () => {
              src="https://asistensia.com/assets/why-us-56fbe6b1600a07a220c98b9b1c0acca6cf618f37255a6ccc30516ab804487def.jpg"
             />
         <div className="mt-10 md:ml-8">
-          <p className="text-[#444] text-[16px] font-normal ml-5 md:ml-0">
+          <p className="text-[#444] text-[17px] font-normal ml-5 md:ml-0">
             Asistensia is a world-class team working globally. Our clients are business owners looking to create<br/>
              new products or improve existing software solutions.
         </p>
-          <p className="mt-8 text-[#444] text-[16px] font-normal ml-5 md:ml-0">
+          <p className="mt-8 text-[#444] text-[17px] font-normal ml-5 md:ml-0">
             Our organizational structure is designed to give our clients access to the best talent and the most<br/> 
             effective approaches to build software.
          </p>
