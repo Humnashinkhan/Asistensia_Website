@@ -69,7 +69,7 @@ const AskQuestion = () => {
         {faqs.map((faq, index) =>(
           <div
             key={faq.id}
-            className="border-b-gray-400 rounded-lg shadow-sm"
+            className="border-b-gray-600 rounded-lg shadow-sm"
           >
             {/* Question Section */}
             <div
