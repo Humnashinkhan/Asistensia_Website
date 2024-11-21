@@ -27,8 +27,8 @@ const [isScrolled, setIsScrolled] = useState(false);
 
   return (
       <div 
-      className={`absolute flex w-full items-center justify-between px-8 py-4 ${
-        isScrolled ? 'bg-white shadow-lg h-28 mt-12 fixed' : 'bg-transparent'
+      className={`fixed top-0 left-0  z-50 transition-all duration-300 flex w-full items-center justify-between px-8 py-4 ${
+        isScrolled ? 'bg-white shadow-lg h-24 fixed' : 'bg-transparent h-24'
       }`}
     >
       <div className="items-center cursor-pointer">

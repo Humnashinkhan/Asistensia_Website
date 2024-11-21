@@ -69,24 +69,24 @@ const Footer = () => {
         <p className="text-[16px] text-[#444] pt-6 md:mr-40">We’ll contact you within 24 hours with more information on our next steps.</p>
           <form className="grid gap-5 pt-8">
            <input
-           className="md:w-[30rem] p-2 border-2 border-gray-200" 
+           className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
            type="text" 
            placeholder='Your Name'
            />
           <input
-           className="md:w-[30rem] p-2 border-2 border-gray-200"  
+           className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200"  
            type="text" 
            placeholder='Your Email'
            /> 
            <input
-          className="md:w-[30rem] p-2 border-2 border-gray-200"  
+          className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200"  
            type="text" 
            placeholder='Subject'
            />
-            <input 
-            className="md:w-[30rem] h-32 border-2 border-gray-200 pb-20 pl-2" 
+          <input 
+            className="md:w-[30rem] h-32 border-2 border-gray-200 pb-20 pl-2 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
            type="text" 
-           placeholder='Message'
+           placeholder='Message' 
            />
           <input 
           className="bg-[#1bb1dc] text-white rounded-md hover:bg-[#1993dc] w-40 ml-36 py-2"
