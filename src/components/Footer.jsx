@@ -30,11 +30,26 @@ const Footer = () => {
       <div className="md:pt-16 p-4">
       <h4 className="font-bold text-[14px] uppercase text-[#413e66]">Useful Links</h4>
       <ul>
-        <li className="text-[16px] text-[#696592] pt-7 hover:text-[#1bb1dc]">Home</li>
-        <li className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">About Us</li>
-        <li className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">Services</li>
-        <li className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">Terms of Service</li>
-        <li className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">Privacy policy</li>
+        <li 
+        className="text-[16px] text-[#696592] pt-7 hover:text-[#1bb1dc]">
+         <a href="/">Home</a> 
+        </li>
+        <li 
+        className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">
+          <a href="#about">About Us </a>
+        </li>
+        <li 
+        className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">
+          <a href="#services">Services </a>
+        </li>
+        <li 
+        className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">
+          <a href="/">Terms of Service </a>
+        </li>
+        <li 
+        className="text-[16px] text-[#696592] pt-4 hover:text-[#1bb1dc]">
+         <a href="/">Privacy policy </a> 
+        </li>
       </ul>
       <h4 className="font-bold text-[14px] uppercase text-[#413e66] pt-9">Contact Us</h4>
       <p className="text-[16px] text-[#444] pt-5">
@@ -50,18 +65,24 @@ const Footer = () => {
          VAT No. NL003628651B77
       </p>
       <div className="text-white pt-3">
+      <a href="https://x.com/i/flow/login?redirect_after_login=%2FTheAsistensia">
        <FontAwesomeIcon 
        icon={faTwitter} 
        className="bg-[#1bb1dc] h-4 p-3 m-2 transition duration-300 cursor-pointer hover:bg-[#1993bc] rounded-full"
       />
+      </a>
+      <a href="https://www.facebook.com/asistencia.in/">
       <FontAwesomeIcon 
       icon={faFacebookF} 
       className="bg-[#1bb1dc] h-4 p-3 m-2 transition duration-300 cursor-pointer hover:bg-[#1993bc] rounded-full" 
      />
+     </a>
+     <a href="https://www.linkedin.com/company/asistensia/">
       <FontAwesomeIcon 
       icon={faLinkedin} 
       className="bg-[#1bb1dc] h-4 p-3 m-2 transition duration-300 cursor-pointer hover:bg-[#1993bc] rounded-full"
     />
+    </a>
     </div>
       </div>
        <div className="md:pt-16 p-5">
@@ -71,22 +92,30 @@ const Footer = () => {
            <input
            className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
            type="text" 
+           name="name"
            placeholder='Your Name'
+           required
            />
           <input
            className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200"  
            type="text" 
+           email="email"
            placeholder='Your Email'
+           required
            /> 
            <input
           className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200"  
            type="text" 
+           subject="subject"
            placeholder='Subject'
+           required
            />
-          <input 
-            className="md:w-[30rem] h-32 border-2 border-gray-200 pb-20 pl-2 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
-           type="text" 
+          <textarea 
+          className="md:w-[30rem] h-32 border-2 border-gray-200 pb-20 pl-2 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
+          name="message" 
+          id=""
            placeholder='Message' 
+           required
            />
           <input 
           className="bg-[#1bb1dc] text-white rounded-md hover:bg-[#1993dc] w-40 ml-36 py-2"
