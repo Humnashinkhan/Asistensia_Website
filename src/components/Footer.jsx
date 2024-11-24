@@ -1,8 +1,33 @@
 import React from 'react'
+import Swal from 'sweetalert2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faBarcode, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
+
+   const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "1c5ec3cc-5fcc-4db3-a768-0285b66d026f");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent sucessfully!",
+        icon: "success"
+      });
+
+    }
+  };
+
   return (
     <>
     <div className="bg-[#f5f8fd] w-full md:h-[90vh] md:flex justify-between">
@@ -88,7 +113,8 @@ const Footer = () => {
        <div className="md:pt-16 p-5">
         <h4 className="font-bold text-[14px] uppercase text-[#413e66]">Interested in our services?</h4>
         <p className="text-[16px] text-[#444] pt-6 md:mr-40">We’ll contact you within 24 hours with more information on our next steps.</p>
-          <form className="grid gap-5 pt-8">
+          <form onSubmit={ onSubmit}
+          className="grid gap-5 pt-8">
            <input
            className="md:w-[30rem] p-2 border-2 border-gray-200 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-200" 
            type="text" 
