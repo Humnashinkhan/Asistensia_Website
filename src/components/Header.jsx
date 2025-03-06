@@ -36,7 +36,7 @@ const [isScrolled, setIsScrolled] = useState(false);
             <img
              className="h-10 w-auto md:ml-40 md:mt-10 mt-5"
              alt="logo"
-             src="https://asistensia.com/assets/asistensia-4cb14fceec388d06474a50f4868eb2c3f7de2a835f78083e78365b5d70bc9068.png"
+             src="https://bitbucket.org/sd3lab/dev_pool/raw/7991ee78c53bc41e5b4ddc7ae06520d550dd6e51/app/assets/images/asistensia-logo.png"
              />
         </a>
         </div>

@@ -9,7 +9,7 @@ const IntroSection = () => {
      <img 
       className='w-full h-[700px]'
       alt="bg-img"
-      src="https://asistensia.com/assets/intro-bg-8db7852f9bb766991b263a1f87ca26115a616950e84376e8c4ad71750f6fb0fc.jpg"
+      src="https://bitbucket.org/sd3lab/dev_pool/raw/7991ee78c53bc41e5b4ddc7ae06520d550dd6e51/app/assets/images/intro-bg.jpg"
     />
    <div className="top-[54%] text-center left-20 md:text-left md:top-1/3 absolute md:left-44 text-[#413e66] max-w-md">
     <h1 className="text-4xl md:text-5xl font-bold">Quick Solutions <br/>
@@ -25,7 +25,7 @@ const IntroSection = () => {
     <img
      className="h-[16rem] w-full md:w-[600px] md:h-[26rem]"
      alt="side_image"
-     src="https://asistensia.com/assets/intro-img-f5c4df7e19459f619a7aeba07fddaf14d25ce69723563be00df34dacc8e54d6a.svg"
+     src="https://www.cjbyte.com/assets/img/Chris-Byte-Solutions-Private-Limited-intro-img.webp"
      />
    </div>
   </div>

@@ -18,7 +18,7 @@ const ChooseUs = () => {
             <img
              className="mt-10 w-[90%] md:w-[45%] md:h-96 ml-5"
              alt="img"
-             src="https://asistensia.com/assets/why-us-56fbe6b1600a07a220c98b9b1c0acca6cf618f37255a6ccc30516ab804487def.jpg"
+             src="https://bitbucket.org/sd3lab/dev_pool/raw/7991ee78c53bc41e5b4ddc7ae06520d550dd6e51/app/assets/images/why-us.jpg"
             />
         <div className="mt-10 md:ml-8">
           <p className="text-[#444] text-[17px] font-normal ml-5 md:ml-0">

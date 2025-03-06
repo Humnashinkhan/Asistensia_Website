@@ -9,7 +9,7 @@ const AboutUs = () => {
         <img
          className="w-96 mt-24 mb-2 ml-9 pr-5 md:pr-0 md:ml-48 transition duration-500 transform hover:scale-105 border-8 border-solid border-white"
          alt="about-img"
-         src="https://asistensia.com/assets/about-img-5653c8506cf39df77a5ff65c60d79290e34bbbb639ba525faff018aaa147d0fa.jpg"
+         src="https://bitbucket.org/sd3lab/dev_pool/raw/7991ee78c53bc41e5b4ddc7ae06520d550dd6e51/app/assets/images/about-img.jpg"
          />
     </div>
     <div className="mt-14 md:mt-24 ml-10 mb-12 md:mb-0">

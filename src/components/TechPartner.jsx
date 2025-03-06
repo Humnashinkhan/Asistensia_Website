@@ -8,7 +8,7 @@ const TechPartner = () => {
           <img 
           className='h-[26rem]'
           alt="img1"
-          src="https://asistensia.com/assets/features-1-73eac8aadfe7604f48729ddb3a7d668d20a9db7a8818cb630fee4c45a5734d5f.svg"
+          src="https://www.cjbyte.com/assets/img/Chris-Byte-Solutions-Private-Limited-features-1.webp"
         />
         <div className="ml-8">
           <h4 className="text-[24px] text-[#444] font-semibold">Asistensia is your technology partner in<br/>
@@ -44,7 +44,7 @@ const TechPartner = () => {
           <img 
           className='h-[26rem]'
           alt="img2"
-          src="https://asistensia.com/assets/features-2-6d40356f6f4776c0dc8746464c0491d5605bfd6aed7033382be0d960c355d991.svg"
+          src="https://www.cjbyte.com/assets/img/Chris-Byte-Solutions-Private-Limited-features-2.svg"
           />
         </div>
         </div>
